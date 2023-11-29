@@ -4,10 +4,10 @@ import 'package:flutter_task/utilities/themes/app_colors.dart';
 import 'package:flutter_task/widgets/shared_widgets/build_text.dart';
 import 'package:provider/provider.dart';
 
-import '../../auth_provider/login_provider.dart';
-import '../../widgets/shared_widgets/build_icon_elevated_button.dart';
-import '../../widgets/shared_widgets/build_text_button.dart';
-import '../../widgets/shared_widgets/build_text_form_field.dart';
+import '../../../auth_provider/login_provider.dart';
+import '../../../widgets/shared_widgets/build_icon_elevated_button.dart';
+import '../../../widgets/shared_widgets/build_text_button.dart';
+import '../../../widgets/shared_widgets/build_text_form_field.dart';
 import 'login_form_widget/login_button.dart';
 import 'login_form_widget/terms_of_service.dart';
 
