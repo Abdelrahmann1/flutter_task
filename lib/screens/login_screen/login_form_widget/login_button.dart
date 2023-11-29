@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_task/widgets/shared_widgets/build_elevated_button.dart';
 import 'package:provider/provider.dart';
 
-import '../../../provider/login_provider.dart';
+import '../../../auth_provider/login_provider.dart';
+
 class LoginButton extends StatelessWidget {
   const LoginButton({super.key});
 

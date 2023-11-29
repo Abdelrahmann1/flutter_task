@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:flutter_task/provider/login_provider.dart';
 import 'package:flutter_task/screens/login_screen.dart';
 import 'package:flutter_task/utilities/theme.dart';
 import 'package:provider/provider.dart';
+
+import 'auth_provider/login_provider.dart';
 
 void main() {
   //runApp(const MyApp());
