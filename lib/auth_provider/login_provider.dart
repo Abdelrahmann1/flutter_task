@@ -11,7 +11,6 @@ class LoginProvider extends ChangeNotifier {
   final TextEditingController passwordController = TextEditingController();
   final formkey = GlobalKey<FormState>();
 
-
   Future<bool> login(String email, String password) async {
     if (email.isEmpty || password.isEmpty) {
       Fluttertoast.showToast(
@@ -78,7 +77,9 @@ class LoginProvider extends ChangeNotifier {
 
       return false;
     }
-  }bool _isValidEmail(String email) {
+  }
+
+  bool _isValidEmail(String email) {
     final RegExp emailRegex = RegExp(
       r'^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$',
       caseSensitive: false,
@@ -86,5 +87,4 @@ class LoginProvider extends ChangeNotifier {
     );
     return emailRegex.hasMatch(email);
   }
-
 }

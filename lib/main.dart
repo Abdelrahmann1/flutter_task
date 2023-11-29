@@ -7,7 +7,6 @@ import 'package:provider/provider.dart';
 import 'auth_provider/login_provider.dart';
 
 void main() {
-  //runApp(const MyApp());
   runApp(const MyApp());
 }
 
