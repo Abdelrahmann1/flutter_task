@@ -1,0 +1,30 @@
+{
+    "welcomeBack":"مرحبا",
+    "LoginToContinueRadioApp":"تسجيل الدخول للمتابعة تطبيق الراديو",
+    "LogIn":"تسجيل الدخول",
+    "TermsOfServiceStatment": "عند التسجيل، تشير إلى أنك قد قرأت ووافقت على الشروط",
+    "TermsOfService":"شروط الخدمة",
+    "EmailAddress":"عنوان البريد الإلكتروني",
+    "RememberMe":"تذكرني",
+    "ForgetPassword":"هل نسيت كلمة المرور؟",
+    "OR":"او",
+    "SignInwithGoogle":"تسجيل الدخول بواسطة جوجل",
+    "SignInwithAppleID":"تسجيل الدخول بواسطة Apple ID",
+    "ContinuewithFacebook":"المتابعة باستخدام فيسبوك",
+    "DonthaveAnAccount":"ليس لديك حساب؟",
+    "SignUp":"التسجيل"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}  

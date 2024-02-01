@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_task/generated/l10n.dart';
 import 'package:flutter_task/utilities/extensions.dart';
 import 'package:flutter_task/utilities/themes/app_colors.dart';
 import 'package:flutter_task/widgets/shared_widgets/build_text.dart';
@@ -26,7 +27,7 @@ class LoginFormWidget extends StatelessWidget {
           children: [
             BuildTextFormField(
               controller: loginProvider.emailController,
-              label: 'Email Address',
+              label:S.of(context).EmailAddress,
               preFix: Icons.mail_outline,
             ),
             20.screenHeightScale().sizedBox(),
@@ -54,8 +55,8 @@ class LoginFormWidget extends StatelessWidget {
                                 color: AppColors.textButtonColor, width: 5)),
                       ),
                     ),
-                    const BuildText(
-                      text: 'Remember me',
+                     BuildText(
+                      text: S.of(context).RememberMe,
                       color: AppColors.defaultButtonTextColor,
                       fontSize: 13,
                     )
@@ -70,8 +71,8 @@ class LoginFormWidget extends StatelessWidget {
                           tapTargetSize: MaterialTapTargetSize.shrinkWrap,
                           alignment: AlignmentDirectional.centerEnd),
                       onPressed: () {},
-                      child: const BuildText(
-                        text: 'Forget password?',
+                      child:  BuildText(
+                        text: S.of(context).ForgetPassword,
                         fontWeight: FontWeight.bold,
                         color: AppColors.textButtonColor,
                       ),
@@ -81,28 +82,28 @@ class LoginFormWidget extends StatelessWidget {
             20.screenHeightScale().sizedBox(),
             const LoginButton(),
             27.screenHeightScale().sizedBox(),
-            const BuildText(
-              text: 'OR',
+             BuildText(
+              text: S.of(context).OR,
               fontSize: 14,
               color: Colors.black,
             ),
             25.screenHeightScale().sizedBox(),
-            const BuildIconElevatedButton(
-              text: 'Sign In with Google',
+             BuildIconElevatedButton(
+              text: S.of(context).SignInwithGoogle,
               iconName: 'google',
               elevatedButtonColor: AppColors.fillColor,
             ),
             28.screenHeightScale().sizedBox(),
-            const BuildIconElevatedButton(
-              text: 'Sign In with Apple ID',
+             BuildIconElevatedButton(
+              text: S.of(context).SignInwithAppleID,
               iconName: 'apple_icon',
               iconColor: AppColors.fillColor,
               elevatedButtonColor: AppColors.defaultButtonTextColor,
               textColor: AppColors.fillColor,
             ),
             28.screenHeightScale().sizedBox(),
-            const BuildIconElevatedButton(
-              text: 'Continue with Facebook',
+             BuildIconElevatedButton(
+              text: S.of(context).ContinuewithFacebook,
               iconName: 'facebook_icon',
               elevatedButtonColor: Color(0xff39579A),
               textColor: AppColors.fillColor,
@@ -111,8 +112,8 @@ class LoginFormWidget extends StatelessWidget {
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              const BuildText(text: 'Don’t have an account? '),
-              BuildTextButton(text: 'Sign up', onPressed: () {}),
+               BuildText(text: S.of(context).DonthaveAnAccount),
+              BuildTextButton(text: S.of(context).SignUp, onPressed: () {}),
 
             ],
           ),

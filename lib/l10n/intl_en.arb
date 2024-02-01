@@ -1,0 +1,17 @@
+{
+    "welcomeBack":"Welcome Back!",
+    "LoginToContinueRadioApp":"Login to continue Radio App",
+    "LogIn":"Log In",
+    "TermsOfServiceStatment":"By signing up you indicate that you have read and agreed to the Patch",
+    "TermsOfService":"Terms of Service",
+    "EmailAddress":"Email Address",
+    "RememberMe":"Remember me",
+    "ForgetPassword":"Forget password?",
+    "OR":"OR",
+    "SignInwithGoogle":"Sign In with Google",
+    "SignInwithAppleID":"Sign In with Apple ID",
+    "ContinuewithFacebook":"Continue with Facebook",
+    "DonthaveAnAccount":"Don’t have an account? ",
+    "SignUp":"Sign up"
+
+}

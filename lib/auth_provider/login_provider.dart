@@ -10,6 +10,15 @@ class LoginProvider extends ChangeNotifier {
   final TextEditingController emailController = TextEditingController();
   final TextEditingController passwordController = TextEditingController();
   final formkey = GlobalKey<FormState>();
+    bool _isArabic = false;
+
+  bool get isArabic => _isArabic;
+
+  void toggleLanguage() {
+    _isArabic = !_isArabic;
+    notifyListeners();
+  }
+
 
   Future<bool> login(String email, String password) async {
     if (email.isEmpty || password.isEmpty) {
